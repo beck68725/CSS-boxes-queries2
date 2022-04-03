@@ -1,0 +1,122 @@
+body {
+    background: papayawhip;
+  }
+  
+  /* * { 
+    border: 1px solid mediumspringgreen;
+  }*/
+  
+  div {
+    min-width: 20px;
+    min-height: 20px;
+  }
+  
+  .container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    font-weight: bold;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  .a {
+    background-color: blueviolet;
+    min-height: 18vh;
+    width: auto;
+    margin: 20px 20px 10px 20px;
+    flex-grow: 1;
+  }
+  
+  .b {
+    background-color: aqua;
+    min-height: 36vh;
+    width: auto;
+    margin: 10px 20px 10px 20px;
+    flex-grow: 2;
+  }
+  
+  .row {
+    display: flex;
+    width: 100%;
+    min-height: 18vh;
+    flex-grow: 1;
+  }
+  
+  .c {
+    margin: 10px 10px 10px 20px;
+    width: 26%;
+    min-height: 18vh;
+    flex-grow: 1;
+    background-color: palevioletred;
+  }
+  
+  .d {
+    margin: 10px;
+    width:26%;
+    min-height: 18vh;
+    flex-grow: 1;
+    background-color: rgb(112, 216, 126);
+  }
+  
+  .e {
+    margin: 10px 20px 10px 10px;
+    width: 26%;
+    min-height: 18vh;
+    flex-grow: 1;
+    background-color: rgb(197, 216, 112);
+  }
+  
+  .f {
+    background-color: blueviolet;
+    min-height: 18vh;
+    width: auto;
+    margin: 10px 20px 20px 20px;
+    flex-grow: 1;
+  }
+  
+  @media (min-width: 600px) {
+    .container {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .a {
+      width: 100%;
+      min-height: 18vh;
+    } 
+  
+    .column {
+      display: flex;
+      flex-direction: column;
+      width: 63%;
+    }
+  
+    .b {
+      width: justify;
+      min-height: 18vh;
+      margin: 10px 10px 10px 20px;
+    }
+  
+    .c {
+      min-height: 18vh;
+      margin: 10px 10px 20px 20px;
+    }
+  
+    .d {
+      min-height: 18vh;
+      margin: 10px 10px 20px 10px;
+    }
+  
+    .e {
+      min-height: 18vh;
+      margin: 10px 10px 20px 10px;
+    }
+  
+    .f {
+      width: 25%;
+      margin: 10px 20px 20px 10px;
+    }
+}
